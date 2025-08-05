@@ -2,7 +2,9 @@
   .a-icons{
   display: inline;
 }
-
+.logo img {
+    max-width: 68%;
+}
 .nav-links a
 {
     display: none;
@@ -13,7 +15,7 @@
 .res-nav-links {
     z-index: 4;
     font-size: 1.4em;
-    gap: 38px;
+    gap: 30px;
     background: #aeeded;
     height: 84vh;
     width:100vw;
@@ -58,6 +60,9 @@
     line-height: 1.4rem;
     font-size: 0.90rem;
 }
+.hero-right .arrow-img {
+        display: none;
+ }
 .btn-s {
   
     padding: 0.90rem;
@@ -67,12 +72,12 @@
     font-size: 1.30rem;
     padding: 0.90rem;
 }
-.hero-right .arrow-img{
+/* .hero-right .arrow-img{
    max-width: 26%;
    bottom: -372px;
    right: 374px;
    transform: translate(-10px, 95px);
-}
+} */
 .why-us  {
 padding-left: 8%;
 padding-right: 8%;
