@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  </head>
 <body>
   <div id="maines">
     <header class="navbar">
      <div class="logo">
-      <img src="photos/image 1.png" alt="" />
+      <a href="index.html"><img src="photos/image 1.png" alt=""></a>
      </div>
     <nav class="nav-links">
-      <a href="home.html">Home</a>
-      <a href="loans.html">Loans</a>
-      <a href="about us.html">About us</a>
-      <a href="blog.html">Blog</a>
+      <a href="http://127.0.0.1:5500">Home</a>
+      <a href="about.html">About us</a>
       <a href="contact.html">Contact</a>
      <div class="nav-i">
        <i class="a-icons ri-menu-line" onclick="myFunction()"></i>
@@ -28,11 +29,9 @@
 
   </header>
      <ul id="myTopnav" class="res-nav-links">
-      <li href="home.html">Home</li>
-      <li href="loans.html">Loans</li>
-      <li href="about us.html">About us</li>
-      <li href="blog.html">Blog</li>
-      <li href="contact.html">Contact</li>
+      <a href="http://127.0.0.1:5500">Home</a>
+      <a href="about.html">About us</a>
+      <a href="contact.html">Contact</a>
     </ul>
      <main>
        <section>
@@ -40,7 +39,7 @@
         <div class="column">
           <img class="hero-img img" src="photos/Man with shadow (2).png" alt="">
         </div>
-      <div class="column">
+      <div class="column" data-aos="fade-left">
           <div class="hero-right">
             <h1>Fast and <span> Trusted</span></h1>
            <h3>Personal Loans Up to</h3>
@@ -55,7 +54,8 @@
 
    <section class="section-2">
     <div class="row1">
-         <div class="why-us">
+         <div class="why-us"  data-aos="fade-up"
+     data-aos-duration="3000">
           <h5>Why us</h5>
           <img src="photos/Rectangle 41.png" alt="">
           <h4>With Us, Explore Your</4>
@@ -73,7 +73,8 @@
  
    <section class="section-3">
     <div class="row1">
-      <div class="why-us">
+      <div class="why-us"  data-aos="fade-up"
+     data-aos-duration="3000">
         <h5>Who are we?</h5>
        <img src="photos/Rectangle 41.png" alt="">
         <h2 class="h2a"> <span>fundingwood </span>  provides an easy and simple <br>
@@ -95,7 +96,8 @@
   <!-- row1 start -->
     <section>
       <div class="row1">
-        <div class="why-us">
+        <div class="why-us"  data-aos="fade-up"
+     data-aos-duration="3000">
           <h5>How it Works?</h5>
           <img src="photos/Rectangle 41.png" alt="">
           <h3>How does <span>fundingwood </span>work?</h3>
@@ -196,7 +198,8 @@
     
     <section>
           <div class="row1">
-        <div class="why-us">
+        <div class="why-us"  data-aos="fade-up"
+     data-aos-duration="3000">
           <h5>FAQ</h5>
           <img src="photos/Rectangle 41.png" alt="">
           <h3>Everything you need to <span>know</span></h3>
@@ -253,24 +256,24 @@
           <p class="div-1-p">Address: 1309 Coffeen Avenue Ste <br> 1200, Sheridan County, WY 82801,<br> United States</p>
         </div>
         <div class="div-2">
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-          <a href="#">How it Works</a>
-          <a href="#">FAQs</a>
-          <a href="#">Rate and Fees</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="how_it.html">How it Works</a>
+          <a href="FaQs.html">FAQs</a>
+          <a href="rate_and.html">Rate and Fees</a>
         </div>
         <div class="div-2">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms and Conditions</a>
-          <a href="#">Advertising Disclosure</a>
-          <a href="#">Personal Loan Notice</a>
-          <a href="#">E-Consent</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="tearm.html">Terms and Conditions</a>
+          <a href="adversting.html">Advertising Disclosure</a>
+          <a href="persolnal.html">Personal Loan Notice</a>
+          <a href="e-consent.html">E-Consent</a>
         </div>
         <div class="div-2">
-          <a href="#">California Privacy Notice</a>
-          <a href="#">Do not sell my Personal Information</a>
-          <a href="#">Credit Authorization</a>
-          <a href="#">Remove Me</a>
+          <a href="cailifornia.html">California Privacy Notice</a>
+          <a href="do.html">Do not sell my Personal Information</a>
+          <a href="credit.html">Credit Authorization</a>
+          <a href="remove.html">Remove Me</a>
         </div>
       </div>
        <div class="div-3">
@@ -279,5 +282,8 @@
     </footer>
   </main>
   <script src="./script.js"></script>
+  <script>
+  AOS.init();
+</script>
 </body>
 </html>
