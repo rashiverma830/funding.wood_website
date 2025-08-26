@@ -21,14 +21,13 @@ html,body{
   align-items: center;
   padding: 20px 55px;
 }
-/* .logo {
-  display: flex;
-  align-items: center;
-} */
-
-.logo img {
+/* .logo img {
   max-width:60%;
+} */
+.logo a img {
+    width: 75%;
 }
+
 
 .nav-links a {
   margin-left: 30px;
@@ -364,7 +363,6 @@ span{
     text-align: right;
 }
 .a-b-right img {
-  margin-left: 16px;
     max-width: 75px;
 }
 .a-b-right h6 {
@@ -442,6 +440,10 @@ span{
 }
 .column-left-a{
  max-width: 60%;
+}
+.column-left-a h2 {
+  color: #1c2050;
+  margin-bottom: 20px;
 }
 .column-right-b{
  max-width: 40%;
@@ -585,8 +587,6 @@ span{
   width: 50%;
  }
 .columns-p {
-    padding-top: 35px;
-    line-height: 29px;
     font-size: 15px;
 }
 .about{
@@ -615,6 +615,7 @@ span{
 .about-ul ul{ 
   list-style-type: none;
 }
+
 .about button{
   background-color:#02d5d5 ;
 
@@ -633,7 +634,7 @@ span{
     justify-content: center;
     align-items: center;
     display: flex;
-    padding: 45px 8%;
+    padding: 10px 8%;
 }
 .about-us ul li i{
   font-weight: 700;
@@ -671,7 +672,7 @@ span{
 }
 .about-clear ul li {
     gap: 28px;
-    font-size:25px;
+    font-size:22px;
     display: flex; 
     align-items: center; 
     justify-content: start;
@@ -680,7 +681,6 @@ span{
 
 }
 .about-usicons {
-  padding: 100px 0 100px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -688,12 +688,29 @@ span{
     padding-right: 8%;
 }
 .about-usicons li i{
-    font-size: 72px;
+    font-size: 60px;
 }
+.a_bout_reverse h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.ab_out-top h2 {
+    padding-top: 10px;
+    font-size: 25px;
+}
+.ab_o_ut_values-x h1 {
+    padding-top: 60px;
+    font-size: 20px;
+}
+.ab_o_ut_values-x h2 {
+    font-size: 35px;
+    padding-top: 15px;
+}
+
 /* contact page */
 .pt-5 {
   color: #1c2050;
-    padding-bottom: 12rem;
+    padding-bottom: 6rem;
     padding-top: 6rem;
 }
 .justify-content-center {
@@ -716,7 +733,6 @@ span{
 .contact_info_list h3 i {
   font-weight: 200;
     float: right;
-    line-height: 47px;
     font-size: 30px;
    color: #e6c491;
 }
@@ -726,7 +742,6 @@ span{
   }
 .contact_info_list p {
     font-size: 17px;
-    line-height: 27px;
     color: #1c2050;
     letter-spacing: 0;
 }
@@ -735,13 +750,13 @@ span{
     text-decoration: none;
 }
 .contact_info_list {
-    width: 33.33%;
+    width: 100%;
     margin-right: 65px;
     position: relative;
 }
-.contact_info_listp:last-child {
+/* .contact_info_listp:last-child {
     margin-bottom: 0;
-}
+} */
 .contact_info_list p {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -752,8 +767,8 @@ span{
 }
 .container-ss{
    max-width: 90%;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding-right: 8%;
+    padding-left: 8%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -761,7 +776,7 @@ span{
 
 
 .hero_about_section {
-    padding: 50px 20px;
+    /* padding: 50px 20px; */
     background: white;
   display: flex;
   align-items: center;
@@ -769,14 +784,18 @@ span{
 }
 .container{
     width: 100%;
-    padding-right: 1rem;
-    padding-left: 10rem;
+    /* padding-right:8%;
+    padding-left: 8%; */
     margin-right: auto;
     margin-left: auto;
 }
 .col-10 {
     flex: 0 0 auto;
     width: 100%;
+}
+.col-10 h2{
+  color: #1c2050;
+  margin-bottom: 20px;
 }
 .col-10 p {
   line-height: 29px;
@@ -799,6 +818,7 @@ ul {
     padding: 0;
 }
 .ulclass li {
+  padding-bottom: 10px;
   line-height: 25px;
     list-style: disc;
 }
@@ -815,7 +835,7 @@ p:last-child {
 rate and fees */
 
 .hero_about_section {
-    padding: 60px 50px;
+    /* padding: 50px 20px; */
     background: white;
     display: flex;
     align-items: center;
@@ -823,8 +843,8 @@ rate and fees */
 }
 .container {
     width: 100%;
-    padding-right: 10rem;
-    padding-left: 10rem;
+    /* padding-right: 8%;
+    padding-left: 8%; */
     margin-right: auto;
     margin-left: auto;
 }
@@ -882,6 +902,10 @@ h4.pxy{
 .col-12 p{
   padding-top: 12px;
 }
+.col-12 .h2{
+  margin-bottom: 20px;
+  color: #1c2050;
+}
 
 
 
@@ -891,9 +915,13 @@ h4.pxy{
     padding-bottom: 11px;
     padding-top: 16px;
 }
+.col-lg-10 h2 {
+    margin-bottom: 20px;
+    color: #1c2050;
+}
 
 .hero_about_section {
-    padding: 99px 20px;
+    padding: 50px 20px;
     background: white;
     align-items: center;
     display: flex;
@@ -926,15 +954,15 @@ h4.pxy{
 }
 
 .hero_about_section {
-    padding: 99px 20px;
+    /* padding: 50px 20px; */
     background: white;
     align-items: center;
     display: flex;
 }
 .container {
     width: 100%;
-    padding-right: 10rem;
-    padding-left: 10rem;
+    padding-right: 8%;
+    padding-left: 8%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -949,7 +977,7 @@ h4.pxy{
 .neo {
     border-radius: 13px;
     box-shadow: 11px 11px 22px #d0d0d0, -11px -11px 22px #f0f0f0;
-    padding: 50px;
+    padding: 0px 0px;
 }
 .remove-row{
   width: 1120px;
@@ -958,6 +986,11 @@ h4.pxy{
 .col-lg-12 p{
   line-height: 25px;
   padding-top: 12px;
+}
+.col-lg-12 h2{
+  margin-bottom: 20px;
+  color: #1c2050;
+
 }
 .remove-pg .col-lg-12{
   display: flex;
@@ -1048,4 +1081,16 @@ h4.pxy{
 /* personal loan */
 .col-12 p {
   line-height: 24px;
+}
+
+
+.a_bout_reverse {
+    text-align: center;
+    line-height: 32px;
+    padding: 50px 15px;
+    color: #1c2050;
+}
+
+.about_values{
+  text-align: center;
 }
