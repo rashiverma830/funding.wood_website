@@ -140,11 +140,10 @@ html,body{
     font-size: 17px;
 } 
 .hero-right .arrow-img {
-    top: 68%;
-    max-width: 35%;
+    top: 79%;
+    max-width: 15%;
     position: absolute;
-    bottom: 26px;
-    right: 215px;
+    right: 25%;
 }
 .btn-s{
     padding: 11px;
@@ -486,12 +485,12 @@ span{
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    border-right: 3px solid #03d5d5;
+    border-right: 1px solid #03d5d5;
     border-radius: 0px 0px 11px 11px;
     margin-top: -4px;
     margin-bottom: 7px;
-    border-bottom: 2px solid #03d5d5;
-    border-left: 3px solid #03d5d5;
+    border-bottom: 1px solid #03d5d5;
+    border-left: 1px solid #03d5d5;
     /* padding: 6px; */
 }
 
@@ -921,7 +920,7 @@ h4.pxy{
 }
 
 .hero_about_section {
-    padding: 50px 20px;
+    padding: 50px 15px;
     background: white;
     align-items: center;
     display: flex;
@@ -961,8 +960,8 @@ h4.pxy{
 }
 .container {
     width: 100%;
-    padding-right: 8%;
-    padding-left: 8%;
+    padding-right: 7%;
+    padding-left: 7%;
     margin-right: auto;
     margin-left: auto;
 }
